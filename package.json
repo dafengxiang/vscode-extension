@@ -1,10 +1,11 @@
 {
-    "name": "bgtocode",
+    "name": "wukong",
     "publisher": "dafengxiang",
-    "displayName": "bgtocode",
+    "displayName": "wukong",
     "description": "background image ganerate",
     "repository": "https://github.com/dafengxiang/vscode-extension",
     "version": "0.0.1",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.73.0"
     },
