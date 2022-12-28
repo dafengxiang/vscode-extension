@@ -1,6 +1,6 @@
 {
-  "name": "bg-img-ganerate",
-  "displayName": "bg-img-ganerate",
+  "name": "bgtocode",
+  "displayName": "bgtocode",
   "description": "background image ganerate",
   "version": "0.0.1",
   "engines": {
@@ -10,13 +10,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:bg-img-ganerate.helloWorld"
+    "onCommand:bgtocode.helloWorld"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "bg-img-ganerate.helloWorld",
+        "command": "bgtocode.helloWorld",
         "title": "Hello World"
       }
     ]

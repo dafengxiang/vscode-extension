@@ -1,27 +1,21 @@
 "use strict";
+/*
+ * @Description: 插件入口文件
+ * @Author: wangfengxiang
+ * @Date: 2022-12-28 10:22:02
+ * @LastEditTime: 2022-12-28 10:25:17
+ * @LastEditors: wangfengxiang
+ */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deactivate = exports.activate = void 0;
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
+exports.activate = void 0;
 const vscode = require("vscode");
-// This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
 function activate(context) {
-    // Use the console to output diagnostic information (console.log) and errors (console.error)
-    // This line of code will only be executed once when your extension is activated
-    console.log('Congratulations, your extension "bg-img-ganerate" is now active!');
-    // The command has been defined in the package.json file
-    // Now provide the implementation of the command with registerCommand
-    // The commandId parameter must match the command field in package.json
-    let disposable = vscode.commands.registerCommand('bg-img-ganerate.helloWorld', () => {
-        // The code you place here will be executed every time your command is executed
-        // Display a message box to the user
-        vscode.window.showInformationMessage('Hello World from bg-img-ganerate!');
+    console.log('Congratulations, your extension "bgtocode" is now active!');
+    let disposable = vscode.commands.registerCommand('bgtocode.helloWorld', () => {
+        vscode.window.showInformationMessage('Hello World from bgtocode!');
     });
     context.subscriptions.push(disposable);
 }
 exports.activate = activate;
-// This method is called when your extension is deactivated
-function deactivate() { }
-exports.deactivate = deactivate;
+// export function deactivate() {}
 //# sourceMappingURL=extension.js.map
