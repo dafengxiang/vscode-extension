@@ -3,7 +3,7 @@
  * @Description: 插件入口文件
  * @Author: wangfengxiang
  * @Date: 2022-12-28 10:22:02
- * @LastEditTime: 2022-12-28 17:22:36
+ * @LastEditTime: 2022-12-28 18:21:33
  * @LastEditors: wangfengxiang
  */
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -30,7 +30,7 @@ function activate(context) {
         // 模版处理
         const template = vscode.workspace.getConfiguration("bgToCode")?.template ??
             `
-        @size({width}px,{height}px);
+        .size({width}px,{height}px);
         .po-absolute;
         top: 0;
         left: 0;
