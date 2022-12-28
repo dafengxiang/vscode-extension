@@ -3,6 +3,7 @@
     "publisher": "dafengxiang",
     "displayName": "bgtocode",
     "description": "background image ganerate",
+    "repository": "https://github.com/dafengxiang/vscode-extension",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.73.0"
