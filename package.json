@@ -1,7 +1,7 @@
 {
-    "name": "wukong",
+    "name": "SongWukong",
     "publisher": "dafengxiang",
-    "displayName": "wukong",
+    "displayName": "SongWukong",
     "description": "background image ganerate",
     "repository": "https://github.com/dafengxiang/vscode-extension",
     "version": "0.0.1",
@@ -19,7 +19,7 @@
     "contributes": {
         "commands": [{
             "command": "bgtocode",
-            "title": "生成背景图代码"
+            "title": "生成图片代码"
         }],
         "menus": {
             "editor/context": [{
