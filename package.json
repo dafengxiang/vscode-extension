@@ -3,7 +3,6 @@
     "publisher": "dafengxiang",
     "displayName": "SongWukong",
     "description": "自动读取剪切板图片链接，自动获取图片尺寸，根据自定义模版补全信息，生成代码",
-    "repository": "https://github.com/dafengxiang/vscode-extension",
     "version": "0.0.1",
     "icon": "images/icon.png",
     "engines": {
