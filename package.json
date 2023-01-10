@@ -17,19 +17,34 @@
     "main": "./out/extension.js",
     "contributes": {
         "commands": [{
-            "command": "bgtocode",
-            "title": "生成图片代码"
-        }],
+                "command": "bgtocode",
+                "title": "生成图片代码"
+            },
+            {
+                "command": "uploadimg",
+                "title": "选取图片上传"
+            }
+        ],
         "menus": {
             "editor/context": [{
-                "command": "bgtocode"
-            }]
+                    "command": "bgtocode"
+                },
+                {
+                    "command": "uploadimg"
+                }
+            ]
         },
         "keybindings": [{
-            "command": "bgtocode",
-            "key": "ctrl+g",
-            "mac": "cmd+g"
-        }]
+                "command": "bgtocode",
+                "key": "ctrl+g",
+                "mac": "cmd+g"
+            },
+            {
+                "command": "uploadimg",
+                "key": "ctrl+i",
+                "mac": "cmd+i"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "pnpm run compile",

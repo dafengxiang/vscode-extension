@@ -2,7 +2,7 @@
  * @Description: 插件入口文件
  * @Author: wangfengxiang
  * @Date: 2022-12-28 10:22:02
- * @LastEditTime: 2022-12-28 18:21:33
+ * @LastEditTime: 2023-01-10 14:52:28
  * @LastEditors: wangfengxiang
  */
 
@@ -59,5 +59,10 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.window.showInformationMessage("代码生成成功！");
   });
 
+  const toUploadImg = vscode.commands.registerCommand("uploadimg", async () => {
+    vscode.window.showInformationMessage("代码生成成功！");
+  });
+
   context.subscriptions.push(disposable);
+  context.subscriptions.push(toUploadImg);
 }
